@@ -1,0 +1,12 @@
+# Core dependencies for Paint by Number Generator
+streamlit>=1.22.0
+numpy>=1.20.0
+Pillow>=9.0.0
+opencv-python>=4.5.0
+scikit-learn>=1.0.0
+requests>=2.25.0
+svgwrite>=1.4.0
+
+# Optional dependencies
+matplotlib>=3.5.0
+scipy>=1.8.0

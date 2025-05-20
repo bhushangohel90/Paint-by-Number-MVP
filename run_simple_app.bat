@@ -1,0 +1,3 @@
+@echo off
+echo Starting simplified Streamlit app...
+python -m streamlit run simple_streamlit_app.py

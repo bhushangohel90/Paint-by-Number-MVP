@@ -1,0 +1,6 @@
+@echo off
+echo Combining alternative app parts...
+type simple_app_alternative.py > simple_app_alternative_combined.py
+type simple_app_alternative_part2.py >> simple_app_alternative_combined.py
+echo Starting Streamlit app...
+python -m streamlit run simple_app_alternative_combined.py
